@@ -13,7 +13,7 @@ export default function Object() {
 
   return (
     <mesh ref={objectRef}>
-      <torusGeometry args={[2, 0.5, 16, 100]} />
+      <torusGeometry args={[1, 0.5, 16, 100]} />
       <meshNormalMaterial />
     </mesh>
   );

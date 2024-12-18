@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.css {
+  position: absolute;
+  top: 150px;
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgb(81, 28, 203);
+}
